@@ -10,6 +10,8 @@
         "${file}",
         "-o",
         "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        "${fileDirname}/sql",
+        "-lsqlite3",
         ""
       ],
       "options": {
